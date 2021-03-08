@@ -1,6 +1,6 @@
 package First;
-class Employee {
-    int em_age;
+class Employee { // visibility of the class not defined
+    int em_age; // same goes for data in the class, define the scope
     String em_name, em_designation, em_department;
     double em_salary;
 
